@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.has-pointer-events {
+  pointer-events: all !important;
+  cursor: pointer !important;
+}
+
+.stock-select-list {
+  position: absolute;
+  z-index: 1000;
+}
